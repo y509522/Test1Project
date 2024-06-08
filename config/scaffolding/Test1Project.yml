@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/y509522/Test1Project
   gitUsername: y509522
   gitBranch: main
+services:
+- serviceName: project.test1.integrations:Test
+  packages:
+  - name: Test1Project
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.903
